@@ -2,7 +2,7 @@
 
 ### How to run
 1. clone repository
-2. go to project folder and run docker:
+2. go to the project folder and run docker:
 ```bash
 docker compose up --build
 ```
@@ -18,7 +18,7 @@ docker compose up --build
 
 ### Rent Price logic:
 - Each car has its own daily price, with a default value of $50. The total fee is calculated by multiplying the rental duration (days) by the car’s daily price. 
-* A special discount is applied for first-time renters to encourage new users. 
+* A special discount is applied for first-time renters to encourage new users (10%). 
 + Additional loyalty discounts are applied for every 5th and 10th rental, rewarding frequent customers.
 
 ### Car filter logic:
@@ -26,6 +26,7 @@ Users can filter cars based on following criteria:
 - Brand and Model
 * Minimum and Maximum Year
 + Minimum and Maximum Daily Price
++ Color
 - Merchant Username
 * Availability Status
 
