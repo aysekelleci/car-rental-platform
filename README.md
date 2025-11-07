@@ -6,7 +6,7 @@
 ```bash
 docker compose up --build
 ```
-`Note:` change port:5002 if it is already used port 
+`Note:` Change port 5002 if it’s already in use.
 
 3. check postman collection link for api requests:
 [postman](https://www.postman.com/orange-meadow-393529/workspace/team-workspace/collection/21645071-962efa7c-03d8-4763-84e8-b4d84f0cf252?action=share&source=copy-link&creator=21645071)
